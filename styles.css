@@ -1,0 +1,30 @@
+/* Remove default list styles */
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;
+    display: flex; /* Horizontal menu */
+    justify-content: center; /* Centers the menu items */
+}
+
+/* Style menu items */
+ul.menu li {
+    padding: 10px 20px;
+}
+
+/* Style links */
+ul.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+/* Change background color on hover */
+ul.menu li a:hover {
+    background-color: #555;
+    border-radius: 5px; /* Optional: makes hover effect smoother */
+}
